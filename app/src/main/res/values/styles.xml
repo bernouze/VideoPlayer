@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextView" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+    </style>
+
+    <style name="CustomImageButton" parent="@style/Widget.AppCompat.ImageButton">
+        <item name="android:backgroundTint">?colorPrimary</item>
+        <item name="android:tint">?colorOnPrimary</item>
+        <item name="android:scaleX">1.5</item>
+        <item name="android:scaleY">1.5</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@drawable/rounded_button_background</item>
+    </style>
+
+    <style name="CustomImageButtonReversed" parent="CustomImageButton">
+        <item name="android:backgroundTint">?colorOnPrimary</item>
+        <item name="android:tint">?colorPrimary</item>
+    </style>
+</resources>

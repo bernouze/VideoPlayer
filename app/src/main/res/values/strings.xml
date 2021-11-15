@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VideoPlayer</string>
+    <string name="video_controller_time">%1$s / %2$s</string>
+</resources>
